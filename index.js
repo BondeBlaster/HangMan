@@ -10,7 +10,7 @@ let characterFound = [];
 let whichIndex;
 
 onload = function(){
-  randWords = ['kid', 'car', 'Banana'/*, 'basic', 'picture', 'thinking', 'faint', 'other', 'truth', 'beg', 'tool'*/];
+  randWords = ['kid', 'car', 'banana'/*, 'basic', 'picture', 'thinking', 'faint', 'other', 'truth', 'beg', 'tool'*/];
   hintArray = ['someone small', 'something that moves fast on roads', 'something yellow'];
   whichIndex = Math.floor(Math.random() * randWords.length);
   str = randWords[whichIndex];
